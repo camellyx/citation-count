@@ -1,4 +1,7 @@
-all: parseDblp parseScholar sortCount
+all: parseDblp parseScholar sortCount wgetConfig
+
+wgetConfig:
+	cp wgetrc ~/.wgetrc
 
 parseDblp: parseDblp.cpp
 	g++ parseDblp.cpp -o parseDblp
@@ -10,4 +13,4 @@ sortCount: sortCount.cpp
 	g++ sortCount.cpp -o sortCount
 
 clean:
-	rm parseDblp parseScholar sortCount
+	rm parseDblp parseScholar sortCount ~/.wgetrc
