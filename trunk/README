@@ -1,0 +1,48 @@
+README
+
+Usage:
+
+cd Scripts
+make
+
+./runAll.sh
+or
+./runConf.sh ASPLOS
+
+
+--------------------------Program Explainations------------------------
+1. parseDblp
+
+parseDblp takes a dblp html webpage as an input then search and outputs a list 
+of google scholar web links.
+> ./parseDblp < dblpWebPage.html
+
+2. parseScholar
+
+parseScholar takes a google scholar html webpage as an input then decide if this
+paper exists or not and record its citation count and its title if exists.
+> ./parseScholar < paper.googleScholar.html
+
+3. dblpGetCount.sh
+
+dblpGetCount.sh takes in a folder contains files of scholar links and get google 
+scholar pages and citation counts.
+> ./dblpGetCount.sh ../PaperList/DblpPage/ASPLOS ../PaperList/DblpList/ASPLOS
+
+4. dblpGetList.sh
+
+dblpGetList.sh takes in a folder contains dblp pages and outputs a list of 
+google scholar links then pass it to dblpGetCount.sh
+> ./dblpGetList.sh ../PaperList/DblpList/ASPLOS ../PaperList/ScholarPage/ASPLOS ../PaperList/CiteCnt/ASPLOS
+
+5. sortCiteCnt.sh
+
+sortCiteCnt.sh takes in a folder contains cite counts and outputs a folder of 
+sorted cite count.
+> ./sortCiteCnt.sh ../PaperList/CiteCnt/ASPLOS
+
+6. clearEmpty.sh
+
+clearEmpty.sh takes in a Conference then search for empty ScholarPage in that 
+conference and delete it.
+> clearEmpty.sh ASPLOS
