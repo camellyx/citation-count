@@ -1,7 +1,11 @@
 #!/bin/bash
 #countFolder=../PaperList/CiteCnt
 countFolder=$1
-for citeFile in $(ls $countFolder); do
-  mkdir $countFolder/sorted 2>/dev/null
-  ./sortCount < $countFolder/$citeFile > $countFolder/sorted/$citeFile
+rm -rf $countFolder/sorted
+countFileList=$(ls $countFolder)
+mkdir $countFolder/sorted
+for countFile in $countFileList; do
+  conference=${countFile/%.count/}
+  echo $conference > $countFolder/sorted/$countFile
+  ./sortCount < $countFolder/$countFile >> $countFolder/sorted/$countFile
 done
