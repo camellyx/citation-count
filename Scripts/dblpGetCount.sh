@@ -10,7 +10,7 @@ mkdir $3
 
 for listFile in $(ls $listFolder); do
   countFile=${listFile/%.list/.count}
-  rm -f $countFolder/$countFile
+  #rm -f $countFolder/$countFile
   artCnt=0
   for inputLine in $(cat $listFolder/$listFile); do
     scholarFile=${listFile/%.list/.$artCnt.scholar.html}
@@ -21,7 +21,9 @@ for listFile in $(ls $listFolder); do
       wget --tries=0 --wait=10 --random-wait --waitretry=30 $inputLine -O $scholarFolder/$scholarFile
       sleep 61
     fi
-    ./parseScholar < $scholarFolder/$scholarFile >> $countFolder/$countFile
+    if [ ! -f $countFolder/$countFile ]; then
+      ./parseScholar < $scholarFolder/$scholarFile >> $countFolder/$countFile
+    fi
     artCnt=$((artCnt+1))
   done
 done

@@ -24,17 +24,23 @@ int main(int argc, char **argv)
   
   while (!cin.eof()) {
     cin.getline(inputLine, 1000000);
-    startPos = strstr(inputLine, title);
+    char * citePos = strstr(inputLine, "Cite</a>");
+    char * citedByPos = strstr(inputLine, "Cited by ");
+    char * relArtPos = strstr(inputLine, "Related articles</a>");
+    startPos = citedByPos ? citedByPos :
+                  citePos ? citePos :
+                relArtPos ? relArtPos : NULL;
     if (startPos) {
+      if (citePos && citePos < startPos) startPos = citePos;
+      if (relArtPos && relArtPos < startPos) startPos = relArtPos;
+      endPos = strstr(startPos, "</a>");
+      *endPos = '\0';
       int count = 0;
-      startPos = strstr(inputLine, "Cited by");
-      if (startPos) {
-        startPos += 9;
-        endPos = strstr(startPos, "</a>");
-        *endPos = '\0';
-        count = atoi(startPos);
+      if (startPos == citedByPos) {
+        count = atoi(citedByPos+9);
       }
-      cout << count << " " << title << endl;
+      //printf("%x %x %x %x %x\n", inputLine, citedByPos, citePos, relArtPos, startPos);
+      cout << count << ", " << title << endl;
       return 0;
     }
   }

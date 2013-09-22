@@ -14,12 +14,20 @@ int main(int argc, char **argv)
   while (!cin.eof()) {
     cin.getline(inputLine, 1000000);
     int count;
-    sscanf(inputLine, "%d %*s", &count);
-    string strLine (inputLine);
-    results.insert(pair<int, string>(count, strLine));
+    if ( *inputLine != '\0' && 
+         strstr(inputLine, "ASPLOS") == NULL &&
+         strstr(inputLine, "HPCA") == NULL && 
+         strstr(inputLine, "MICRO") == NULL && 
+         strstr(inputLine, "ISCA") == NULL && 
+         strstr(inputLine, "Proceedings") == NULL && 
+         strstr(inputLine, "keynote") == NULL ) {
+      sscanf(inputLine, "%d, %*s", &count);
+      string strLine (inputLine);
+      results.insert(pair<int, string>(count, strLine));
+    }
   }
-  for ( multimap<int, string>::iterator i = results.begin();
-       i != results.end(); i++ ) {
+  for ( multimap<int, string>::reverse_iterator i = results.rbegin();
+       i != results.rend(); i++ ) {
     cout << i->second << endl;
   }
   return 0;
