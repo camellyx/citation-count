@@ -35,6 +35,7 @@ int main(int argc, char **argv)
         count = atoi(startPos);
       }
       cout << count << " " << title << endl;
+      return 0;
     }
   }
   cout << "-1 " << title << endl;
