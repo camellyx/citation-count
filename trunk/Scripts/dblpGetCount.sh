@@ -21,9 +21,7 @@ for listFile in $(ls $listFolder); do
       wget --tries=0 --wait=10 --random-wait --waitretry=30 $inputLine -O $scholarFolder/$scholarFile
       sleep 61
     fi
-    if [ ! -f $countFolder/$countFile ]; then
-      ./parseScholar < $scholarFolder/$scholarFile >> $countFolder/$countFile
-    fi
+    ./parseScholar < $scholarFolder/$scholarFile >> $countFolder/$countFile
     artCnt=$((artCnt+1))
   done
 done
