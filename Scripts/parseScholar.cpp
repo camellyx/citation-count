@@ -40,11 +40,11 @@ int main(int argc, char **argv)
         count = atoi(citedByPos+9);
       }
       //printf("%x %x %x %x %x\n", inputLine, citedByPos, citePos, relArtPos, startPos);
-      cout << count << ", " << title << endl;
+      cout << count << ";\t" << title << endl;
       return 0;
     }
   }
-  cout << "-1 " << title << endl;
+  cout << "-1;\t" << title << endl;
   return 0;
 }
 
