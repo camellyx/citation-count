@@ -14,3 +14,6 @@ sortCount: sortCount.cpp
 
 clean:
 	rm parseDblp parseScholar sortCount ~/.wgetrc
+
+clear:
+	rm -rf ../PaperList/CiteCnt/*

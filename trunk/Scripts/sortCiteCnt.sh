@@ -7,7 +7,7 @@ mkdir $countFolder/sorted
 for countFile in $countFileList; do
   conference=${countFile/%.count/}
   #echo $conference
-  sed -e "s:$:,\ $conference:" $countFolder/$countFile >> $countFolder/all.count
+  sed -e "s:$:;\t$conference:" $countFolder/$countFile >> $countFolder/all.count
 done
 for countFile in $countFileList; do
   conference=${countFile/%.count/}
