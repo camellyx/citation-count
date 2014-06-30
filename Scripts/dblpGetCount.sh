@@ -19,7 +19,10 @@ for listFile in $(ls $listFolder); do
       inputLine=${inputLine/%./&btnG=&as_sdt=1%2C39&as_sdtp=}
       echo $inputLine
       wget --tries=0 --wait=10 --random-wait --waitretry=30 $inputLine -O $scholarFolder/$scholarFile
-      sleep 61
+      time=$RANDOM
+      let "time=$time%60 + 30"
+      echo "sleep for $time"
+      sleep $time
     fi
     ./parseScholar < $scholarFolder/$scholarFile >> $countFolder/$countFile
     artCnt=$((artCnt+1))
