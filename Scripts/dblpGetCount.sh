@@ -20,7 +20,7 @@ for listFile in $(ls $listFolder); do
       echo $inputLine
       wget --tries=0 --wait=10 --random-wait --waitretry=30 $inputLine -O $scholarFolder/$scholarFile
       time=$RANDOM
-      let "time=$time%60 + 80"
+      let "time=$time%10 + 5"
       echo "sleep for $time"
       sleep $time
     fi
