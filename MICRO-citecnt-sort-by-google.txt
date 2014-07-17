@@ -1,0 +1,129 @@
+693 | 211 | Effective compiler support for predicated execution using the hyperblock | micro25
+577 | 151 | Two-level adaptive training branch prediction | micro24
+460 | 159 | Some scheduling techniques and an easily schedulable horizontal architecture for high performance scientific computing | micro14
+312 | 112 | Executing compressed programs on an embedded RISC architecture | micro25
+295 | 88 | Stride directed prefetching in scalar processors | micro25
+202 | 42 | Code generation schema for modulo scheduled loops | micro25
+193 | 64 | Partitioned register files for VLIWs: a preliminary analysis of tradeoffs | micro25
+171 | 67 | HPS, a new microarchitecture: rationale and introduction | micro18
+171 | 54 | An efficient resource-constrained global scheduling technique for superscalar and VLIW processors | micro25
+159 | 55 | A compilation technique for software pipelining of loops with conditional jumps | micro20
+131 | 38 | Register traffic analysis for streamlining inter-operation communication in fine-grain parallel processors | micro25
+127 | 29 | Hardware support for large atomic units in dynamically scheduled machines | micro21
+125 | 41 | Enhanced modulo scheduling for loops with conditional branches | micro25
+111 | 33 | Optimizing delayed branches | micro15
+110 | 35 | Data access microarchitectures for superscalar processors with compiler-assisted data prefetching | micro24
+101 | 36 | A comprehensive instruction fetch mechanism for a processor supporting speculative execution | micro25
+99 | 29 | Trace selection for compiling large C application programs to microcode | micro21
+88 | 26 | Critical issues regarding HPS, a high performance microarchitecture | micro18
+84 | 20 | On the limits of program parallelism and its smoothability | micro25
+71 | 0 | The architecture and operational characteristics of the VMX host machine | micro15
+70 | 31 | URPR-An extension of URCR for software pipelining | micro19
+67 | 14 | An investigation of the performance of various dynamic scheduling techniques | micro25
+62 | 24 | Microprogrammed implementation of a single chip microprocessor | micro11
+62 | 12 | Design decisions influencing the microarchitecture for a Prolog machine | micro17
+61 | 23 | GURPR-a method for global software pipelining | micro20
+52 | 30 | On storage optimization of horizontal microprograms | micro7b
+50 | 20 | Phase coupling and constant generation in an optimizing microcode compiler | micro15
+48 | 14 | MISC: a Multiple Instruction Stream Computer | micro25
+47 | 11 | MIPS: A microprocessor architecture | micro15
+46 | 8 | Genetic algorithms and instruction scheduling | micro24
+45 | 18 | GURPR*: a new global software pipelining algorithm | micro24
+43 | 13 | Graph based retargetable microcode compilation in the MIMOLA design system | micro20
+42 | 0 | Virtual I/O, an experiment | micro12
+41 | 12 | Interlock collapsing ALU for increased instruction-level parallelism | micro25
+40 | 4 | Microarchitecture support for dynamic scheduling of acyclic task graphs | micro25
+40 | 11 | Software pipelining: a comparison and improvement | micro23
+40 | 11 | Code duplication: an assist for global instruction scheduling | micro24
+39 | 7 | Strategies for branch target buffers | micro24
+39 | 0 | SRDAG compaction: a generalization of trace scheduling to increase the use of global context information | micro16
+38 | 20 | Towards a microprogramming language schema | micro11
+38 | 18 | An improvement of trace scheduling for global microcode compaction | micro17
+37 | 17 | &ldquo;Combining&rdquo; as a compilation technique for VLIW architectures | micro22
+35 | 6 | DISC: dynamic instruction stream computer | micro24
+35 | 5 | Efficient DAG Construction and Heuristic Calculation for Instruction Scheduling | micro24
+35 | 5 | An out-of-order superscalar processor with speculative execution and fast, precise interrupts | micro25
+35 | 12 | Enhanced region scheduling on a program dependence graph | micro25
+34 | 7 | Run-time generation of HPS microinstructions from a VAX instruction stream | micro19
+34 | 4 | Dominator-path scheduling: a global scheduling method | micro25
+34 | 21 | An approach to optimization of horizontal microprograms | micro7b
+34 | 20 | A technique of global optimization of microprograms | micro11
+34 | 11 | The effect of page allocation on caches | micro25
+33 | 6 | Comparing static and dynamic code scheduling for multiple-instruction-issue processors | micro24
+33 | 13 | Using a lookahead window in a compaction-based parallelizing compiler | micro23
+33 | 10 | A dynamic-programming technique for compacting loops | micro25
+32 | 3 | The implementation of Prolog via VAX 8600 microcode | micro19
+32 | 15 | A retargetable compiler for a high-level microprogramming language | micro17
+32 | 14 | Experience with a microprogrammed Interlisp system | micro11
+31 | 1 | Tree compaction of microprograms | micro16
+31 | 1 | On tuning the microarchitecture of an HPS implementation of the VAX | micro20
+30 | 13 | Towards an efficient, machine-independent language for microprogramming | micro12
+30 | 12 | A survey of high level microprogramming languages | micro13
+28 | 5 | Flexible processors: a promising application-specific processor design approach | micro21
+27 | 6 | Lazy data routing and greedy scheduling for application-specific signal processors | micro21
+27 | 4 | An evaluation system for application specific architectures | micro23
+27 | 19 | An approach to microprogram optimization considering resource occupancy and instruction formats | micro10
+27 | 0 | Flow graph machine models in microcode synthesis | micro16
+26 | 8 | Levels of representation of programs and the architecture of universal host machines | micro11
+26 | 8 | An efficient architecture for loop based data preloading | micro25
+26 | 15 | On the packing of micro-operations into micro-instruction words | micro11
+26 | 10 | Software pipelining: an evaluation of enhanced pipelining | micro24
+26 | 10 | Global optimization of microprograms through modular control constructs | micro12
+25 | 13 | A Control Word Model for detecting conflicts between microprograms | micro8b
+25 | 11 | Automated proofs of microprogram correctness | micro9
+24 | 8 | Using an oracle to measure potential parallelism in single instruction stream programs | micro14
+24 | 4 | Viewing Instruction Set Design as an Optimization Problem | micro24
+23 | 7 | Extensibility - a new approach for designing machine independent microprogramming languages | micro9
+23 | 6 | Post-compaction register assignment in a retargetable compiler | micro23
+23 | 13 | A retargetable microcode generation system for a high-level microprogramming language | micro14
+22 | 9 | Address compression through base register caching | micro23
+22 | 3 | Motivation and framework for using genetic algorithms for microcode compaction | micro23
+22 | 14 | 2n-way jump microinstruction hardware and an effective instruction binding method | micro13
+22 | 0 | The LASS hardware processor | micro11
+21 | 6 | Algorithms for a self-tuning microprogrammed computer | micro10
+21 | 4 | A barrel shift microsystem for parallel processing | micro23
+20 | 7 | A microprogrammed keyword transformation unit for a database computer | micro10
+20 | 10 | MIDL - a microinstruction description language | micro14
+20 | 0 | Experience developing microcode using a high level language | micro16
+19 | 8 | Efficient hardware for multiway jumps and pre-fetches | micro18
+19 | 10 | Heuristics for the global optimization of microprograms | micro13
+18 | 9 | Automatic microcode generation for horizontally microprogrammed processors | micro14
+18 | 9 | A model of clocked micro-architectures for firmware engineering and design automation applications | micro17
+18 | 8 | Realistic scheduling: compaction for pipelined architectures | micro23
+18 | 7 | An analysis of the information content of address reference streams | micro24
+18 | 10 | Microcode compaction with timing constraints | micro20
+17 | 9 | Trace scheduling optimization in a retargetable microcode compiler | micro20
+17 | 8 | Execution time (and memory) optimization in microprograms | micro7a
+17 | 2 | Software Pipelining for Transport-Triggered Architectures | micro24
+17 | 11 | A higher level language for micro-programming | micro6
+16 | 4 | Performance evaluation of instruction scheduling on the IBM RISC System/6000 | micro25
+16 | 2 | High level microprogramming: current usage, future prospects | micro16
+15 | 9 | Design objectives for high level microprogramming languages | micro11
+15 | 6 | A firmware monitor to support vertical migration decisions in the UNIX operating system | micro15
+15 | 4 | Dynamic microprogramming in a time sharing environment | micro10
+15 | 2 | Design of concurrently testable microprogrammed control units | micro15
+14 | 6 | Global methods in the flow graph approach to retargetable microcode generation | micro17
+14 | 10 | On the combination of hardware and software concurrency extraction methods | micro20
+13 | 5 | Operating system enhancement through firmware | micro10
+13 | 5 | Lookahead scheduling | micro25
+13 | 5 | Compiling Prolog into microcode: a case study using the NCR/32-000 | micro18
+13 | 11 | Some experiments in global microcode compaction | micro18
+12 | 8 | Crossing the machine interface | micro15
+12 | 7 | A data-flow driven resource allocation in a retargetable microcode compiler | micro21
+12 | 5 | Hierarchical microprogram generating system | micro12
+12 | 5 | A software pipelining based VLIW architecture and optimizing compiler | micro23
+11 | 6 | Automatic synthesis of microcontrollers | micro11
+11 | 5 | MBALM/1700: A microprogrammed LISP machine for the Burroughs B1726 | micro10
+11 | 5 | A representation for the analysis of microprogram operation | micro7b
+9 | 6 | Microprogramming with statements of higher-level languages | micro5
+9 | 5 | The use of a writable control memory in a multiprogramming environment | micro5
+9 | 5 | Ordering functions for improving memory reference locality in a shared memory multiprocessor system | micro25
+8 | 6 | The design of a system for the synthesis of correct microprograms | micro8b
+8 | 6 | An axiomatization of low-level parallelism in microarchitectures | micro17
+8 | 5 | A standardized microprogram sequencing control with a push down storage | micro5
+7 | 7 | A case study in signal processing microprogramming using the URPR software pipelining technique | micro19
+7 | 6 | General microprogram width reduction using generator sets | micro14
+7 | 5 | The application of programming language techniques to the design and development of microprogramming languages | micro6
+7 | 5 | Forward semantic: a compiler-assisted instruction fetch method for heavily pipelined processors | micro22
+5 | 5 | Microcode development for microprogrammed processors | micro18
+5 | 5 | Issues of the design of a low level microprogramming language for global microcode compaction | micro14
