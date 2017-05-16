@@ -1,0 +1,14 @@
+do{ my $x = {
+       'conflicts' => {},
+       'build_requires' => {
+                             'Data::Dumper' => 0,
+                             'lib' => 0,
+                             'Test::More' => 0,
+                             'Env' => '1',
+                             'PerlIO::locale' => 0,
+                             'FindBin' => '1.04'
+                           },
+       'requires' => {},
+       'recommends' => {}
+     };
+$x; }

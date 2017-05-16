@@ -1,0 +1,37 @@
+24 | Cache miss heuristics and preloading techniques for general-purpose programs | micro28
+10 | A limit study of local memory requirements using value reuse profiles | micro28
+55 | SPAID: software prefetching in pointer- and call-intensive environments | micro28
+13 | Improving CISC instruction decoding performance using a fill unit | micro28
+5 | The predictability of branches in libraries | micro28
+21 | An effective programmable prefetch engine for on-chip caches | micro28
+20 | Control flow prediction with tree-like subgraphs for superscalar processors | micro28
+11 | Register allocation for predicated code | micro28
+25 | Hypernode reduction modulo scheduling | micro28
+36 | Stage scheduling: a technique to reduce the register requirements of a modulo schedule | micro28
+81 | A modified approach to data cache management | micro28
+13 | Critical path reduction for scalar programs | micro28
+48 | Dynamic path-based branch correlation | micro28
+8 | A system level perspective on branch architecture performance | micro28
+30 | Alternative implementations of hybrid branch predictors | micro28
+5 | Performance issues in correlated branch prediction schemes | micro28
+15 | Unrolling-based optimizations for modulo scheduling | micro28
+18 | Efficient instruction scheduling using finite state automata | micro28
+9 | The role of adaptivity in two-level adaptive branch prediction | micro28
+9 | Partial resolution in branch target buffers | micro28
+7 | Improving instruction-level parallelism by loop unrolling and dynamic memory disambiguation | micro28
+42 | Zero-cycle loads: microarchitecture support for reducing load latency | micro28
+21 | The performance impact of incomplete bypassing in processor pipelines | micro28
+12 | An experimental study of several cooperative register allocation and instruction scheduling strategies | micro28
+17 | Partitioned register file for TTAs | micro28
+16 | Modulo scheduling with multiple initiation intervals | micro28
+6 | Design of storage hierarchy in multithreaded architectures | micro28
+30 | Disjoint eager execution: an optimal form of speculative execution | micro28
+3 | Spill-free parallel scheduling of basic blocks | micro28
+0 | Self-regulation of workload in the Manchester Data-Flow computer | micro28
+2 | Petri net versus modulo scheduling for software pipelining | micro28
+39 | Region-based compilation: an introduction and motivation | micro28
+13 | Dynamic rescheduling: a technique for object code compatibility in VLIW architectures | micro28
+27 | Exploiting short-lived variables in superscalar processors | micro28
+1 | An investigation of the performance of various instruction-issue buffer topologies | micro28
+38 | The M-Machine multicomputer | micro28
+7 | Decoupling integer execution in superscalar processors | micro28

@@ -1,0 +1,157 @@
+Static branch frequency and program profile analysis, Youfeng Wu and James R. Larus
+Using branch handling hardware to support profile-driven optimization, Thomas M. Conte and Burzin A. Patel and J. Stan Cox
+Branch classification: a new mechanism for improving branch predictor performance, Po-Yung Chang and Eric Hao and Tse-Yu Yeh and Yale Patt
+Techniques for compressing program address traces, Andrew R. Pleszkun
+Height reduction of control recurrences for ILP processors, Michael Schlansker and Vinod Kathail and Sadun Anik
+Theoretical modeling of superscalar processor performance, Derek B. Noonburg and John P. Shen
+Iterative modulo scheduling: an algorithm for software pipelining loops, B. Ramakrishna Rau
+Minimum register requirements for a modulo schedule, Alexandre E. Eichenberger and Edward S. Davidson and Santosh G. Abraham
+Minimizing register requirements under resource-constrained rate-optimal software pipelining, R. Govindarajan and Erik R. Altman and Guang R. Gao
+Software pipelining with register allocation and spilling, Jian Wang and Andreas Krall and M. Anton Ertl and Christine Eisenbeis
+Reducing memory traffic with CRegs, Peter Dahl and Matthew O'Keefe
+Dynamic memory disambiguation for array references, David Bernstein and Doron Cohen and Dror E. Maydan
+A study of pointer aliasing for software pipelining using run-time disambiguation, Bogong Su and Stanley Habib and Wei Zhao and Jian Wang and Youfeng Wu
+Data relocation and prefetching for programs with large data sets, Yoji Yamada and John Gyllenhall and Grant Haab and Wen-mei Hwu
+Cache designs with partial address matching, Lishing Liu
+Minimizing branch misprediction penalties for superpipelined processors, Ching-Long Su and Alvin M. Despain
+Facilitating superscalar processing via a combined static/dynamic register renaming scheme, Eric Sprangle and Yale Patt
+Improving resource utilization of the MIPS R8000 via post-scheduling global instruction distribution, Raymond Lo and Sun Chan and Fred Chow and Shin-Ming Liu
+A comparison of two pipeline organizations, Michael Golden and Trevor Mudge
+A fill-unit approach to multiple instruction issue, Manoj Franklin and Mark Smotherman
+A high-performance microarchitecture with hardware-programmable functional units, Rahul Razdan and Michael D. Smith
+The anatomy of the register file in a multiscalar processor, Scott E. Breach and T. N. Vijaykumar and Gurindar S. Sohi
+Register file port requirements of transport triggered architectures, Jan Hoogerbrugge and Henk Corporaal
+The effects of predicated execution on branch prediction, Gary Scott Tyson
+Analysis of the conditional skip instructions of the HP precision architecture, Jonathan P. Vogel and Bruce K. Holmer
+Characterizing the impact of predicated execution on branch prediction, Scott A. Mahlke and Richard E. Hank and Roger A. Bringmann and John C. Gyllenhaal and David M. Gallagher and Wen-mei W. Hwu
+The Effect of Speculatively Updating Branch History On Branch Prediction Accuracy, Revisited, Eric Hao and Po-Yung Chang and Yale N. Patt
+Performance issues in correlated branch prediction schemes, Nicolas Gloy and Michael D. Smith and Cliff Young
+Dynamic path-based branch correlation, Ravi Nair
+The predictability of branches in libraries, Brad Calder and Dirk Grunwald and Amitabh Srivastava
+The performance impact of incomplete bypassing in processor pipelines, Pritpal S. Ahuja and Douglas W. Clark and Anne Rogers
+Efficient instruction scheduling using finite state automata, Vasanth Bala and Norman Rubin
+Critical path reduction for scalar programs, Michael Schlansker and Vinod Kathail
+A limit study of local memory requirements using value reuse profiles, Andrew S. Huang and John P. Shen
+Zero-cycle loads: microarchitecture support for reducing load latency, Todd M. Austin and Gurindar S. Sohi
+A modified approach to data cache management, Gary Tyson and Matthew Farrens and John Matthews and Andrew R. Pleszkun
+Petri net versus modulo scheduling for software pipelining, Vicki H. Allan and U. R. Shah and K. M. Reddy
+Modulo scheduling with multiple initiation intervals, Nancy J. Warter-Perez and Noubar Partamian
+Spill-free parallel scheduling of basic blocks, B. Natarajan and M. Schlansker
+Improving instruction-level parallelism by loop unrolling and dynamic memory disambiguation, Jack W. Davidson and Sanjay Jinturkar
+Self-regulation of workload in the Manchester Data-Flow computer, John R. Gurd and David F. Snelling
+The M-Machine multicomputer, Marco Fillo and Stephen W. Keckler and William J. Dally and Nicholas P. Carter and Andrew Chang and Yevgeny Gurevich and Whay S. Lee
+Region-based compilation: an introduction and motivation, Richard E. Hank and Wen-Mei W. Hwu and B. Ramakrishna Rau
+An experimental study of several cooperative register allocation and instruction scheduling strategies, Cindy Norris and Lori L. Pollock
+Register allocation for predicated code, Alexandre E. Eichenberger and Edward S. Davidson
+Partial resolution in branch target buffers, Barry Fagin and Kathryn Russell
+A system level perspective on branch architecture performance, Brad Calder and Dirk Grunwald and Joel Emer
+Dynamic rescheduling: a technique for object code compatibility in VLIW architectures, Thomas M. Conte and Sumedh W. Sathaye
+Improving CISC instruction decoding performance using a fill unit, Mark Smotherman and Manoj Franklin
+SPAID: software prefetching in pointer- and call-intensive environments, Mikko H. Lipasti and William J. Schmidt and Steven R. Kunkel and Robert R. Roediger
+An effective programmable prefetch engine for on-chip caches, Tien-Fu Chen
+Cache miss heuristics and preloading techniques for general-purpose programs, Toshihiro Ozawa and Yasunori Kimura and Shin'ichiro Nishizaki
+Alternative implementations of hybrid branch predictors, Po-Ying Chang and Eric Hao and Yale N. Patt
+Control flow prediction with tree-like subgraphs for superscalar processors, Simonjit Dutta and Manoj Franklin
+The role of adaptivity in two-level adaptive branch prediction, Stuart Sechrest and Chih-Chieh Lee and Trevor Mudge
+Design of storage hierarchy in multithreaded architectures, Lucas Roh and Walid A. Najjar
+An investigation of the performance of various instruction-issue buffer topologies, St&#233;phan Jourdan and Pascal Sainrat and Daniel Litaize
+Decoupling integer execution in superscalar processors, Subbarao Palacharla and J. E. Smith
+Exploiting short-lived variables in superscalar processors, Luis A. Lozano and Guang R. Gao
+Partitioned register file for TTAs, Johan Janssen and Henk Corporaal
+Disjoint eager execution: an optimal form of speculative execution, Augustus K. Uht and Vijay Sindagi and Kelley Hall
+Unrolling-based optimizations for modulo scheduling, Daniel M. Lavery and Wen-Mei W. Hwu
+Stage scheduling: a technique to reduce the register requirements of a modulo schedule, Alexandre E. Eichenberger and Edward S. Davidson
+Hypernode Reduction Modulo Scheduling, Josep Llosa and Mateo Valero and Eduard Ayguad&#233; and Antonio Gonz&#225;lez
+A persistent rescheduled-page cache for low overhead object code compatibility in VLIW architectures, Thomas M. Conte and Sumedh W. Sathaye and Sanjeev Banerjia
+Integrating a misprediction recovery cache (MRC) into a superscalar pipeline, James O. Bondi and Ashwini K. Nanda and Simonjit Dutta
+Trace cache: a low latency approach to high bandwidth instruction fetching, Eric Rotenberg and Steve Bennett and James E. Smith
+Accurate and practical profile-driven compilation using the profile buffer, Thomas M. Conte and Kishore N. Menezes and Mary Ann Hirsch
+Efficient path profiling, Thomas Ball and James R. Larus
+Profile-driven instruction level parallel scheduling with application to super blocks, C. Chekuri and R. Johnson and R. Motwani and B. Natarajan and B. R. Rau and M. Schlansker
+Speculative hedge: regulating compile-time speculation against profile variations, Brian L. Deitrich and Wen-mei W. Hwu
+Hot cold optimization of large Windows/NT applications, Robert Cohn and P. Geoffrey Lowney
+Java bytecode to native code translation: the caffeine prototype and preliminary results, Cheng-Hsueh A. Hsieh and John C. Gyllenhaal and Wen-mei W. Hwu
+Analysis techniques for predicated code, Richard Johnson and Michael Schlansker
+Global predicate analysis and its application to register allocation, David M. Gillies and Dz-ching Roy Ju and Richard Johnson and Michael Schlansker
+Modulo scheduling of loops in control-intensive non-numeric programs, Daniel M. Lavery and Wen-mei W. Hwu
+Assigning confidence to conditional branch predictions, Erik Jacobsen and Eric Rotenberg and J. E. Smith
+Compiler synthesized dynamic branch prediction, Scott Mahlke and Balas Natarajan
+Wrong-path instruction prefetching, Jim Pierce and Trevor Mudge
+Design decisions influencing the UltraSPARC's instruction fetch architecture, Robert Yung
+Increasing the instruction fetch rate via block-structured instruction set architectures, Eric Hao and Po-Yung Chang and Marius Evers and Yale N. Patt
+Instruction fetch mechanisms for VLIW architectures with compressed encodings, Thomas M. Conte and Sanjeev Banerjia and Sergei Y. Larin and Kishore N. Menezes and Sumedh W. Sathaye
+Tango: a hardware-based data prefetching technique for superscalar processors, Shlomit S. Pinter and Adi Yoaz
+Exceeding the dataflow limit via value prediction, Mikko H. Lipasti and John Paul Shen
+The performance potential of data dependence speculation &amp; collapsing, Yiannakis Sazeides and Stamatis Vassiliadis and James E. Smith
+Heuristics for register-constrained software pipelining, Josep Llosa and Mateo Valero and Eduard Ayguad&#233;
+Software pipelining loops with conditional branches, Mark G. Stoodley and Corinna G. Lee
+Combining loop transformations considering caches and scheduling, Michael E. Wolf and Dror E. Maydan and Ding-Kai Chen
+Instruction scheduling and executable editing, Eric Schnarr and James R. Larus
+Instruction scheduling for the HP PA-8000, David A. Dunn and Wei-Chung Hsu
+Meld scheduling: relaxing scheduling constraints across region boundaries, Santosh G. Abraham and Vinod Kathail and Brian L. Deitrich
+Custom-fit processors: letting applications define architectures, Joseph A. Fisher and Paolo Faraboschi and Giuseppe Desoli
+Optimization for a superscalar out-of-order machine, Anne M. Holler
+Optimization of machine descriptions for efficient use, John C. Gyllenhaal and Wen-mei W. Hwu and B. Ramabriohna Rau
+The bi-mode branch predictor, Chih-Chieh Lee and I-Cheng K. Chen and Trevor N. Mudge
+Path-based next trace prediction, Quinn Jacobson and Eric Rotenberg and James E. Smith
+Alternative fetch and issue policies for the trace cache fetch mechanism, Daniel Holmes Friendly and Sanjay Jeram Patel and Yale N. Patt
+Reducing the performance impact of instruction cache misses by writing instructions into the reservation stations out-of-order, Jared Stark and Paul Racunas and Yale N. Patt
+On high-bandwidth data cache design for multi-issue processors, Jude A. Rivers and Gary S. Tyson and Edward S. Davidson and Todd M. Austin
+Run-time spatial locality detection and optimization, Teresa L. Johnson and Matthew C. Merten and Wen-Mei W. Hwu
+A comparison of data prefetching on an access decoupled and superscalar machine, G. P. Jones and N. P. Topham
+The design and performance of a conflict-avoiding cache, Nigel Topham and Antonio Gonz&#225;lez and Jos&#233; Gonz&#225;lez
+Prediction caches for superscalar processors, James E. Bennett and Michael J. Flynn
+A framework for balancing control flow and predication, David I. August and Wen-mei W. Hwu and Scott A. Mahlke
+Evaluation of scheduling techniques on a SPARC-based VLIW testbed, Seongbae Park and SangMin Shim and Soo-Mook Moon
+Tuning compiler optimizations for simultaneous multithreading, Jack L. Lo and Susan J. Eggers and Henry M. Levy and Sujay S. Parekh and Dean M. Tullsen
+Exploiting dead value information, Milo M. Martin and Amir Roth and Charles N. Fischer
+Trace processors, Eric Rotenberg and Quinn Jacobson and Yiannakis Sazeides and Jim Smith
+The multicluster architecture: reducing cycle time through partitioning, Keith I. Farkas and Paul Chow and Norman P. Jouppi and Zvonko Vranesic
+Out-of-order vector architectures, Roger Espasa and Mateo Valero and James E. Smith
+Initial results on the performance and cost of vector microprocessors, Corinna G. Lee and Derek J. DeVries
+The filter cache: an energy efficient memory structure, Johnson Kin and Munish Gupta and William H. Mangione-Smith
+Improving code density using compression techniques, Charles Lefurgy and Peter Bird and I-Cheng Chen and Trevor Mudge
+Procedure based program compression, Darko Kirovski and Johnson Kin and William H. Mangione-Smith
+Improving the accuracy and performance of memory communication through renaming, Gary S. Tyson and Todd M. Austin
+Microarchitecture support for improving the performance of load target prediction, Chung-Ho Chen and Akida Wu
+Streamlining inter-operation memory communication via data dependence prediction, Andreas Moshovos and Gurindar S. Sohi
+The predictability of data values, Yiannakis Sazeides and James E. Smith
+Value profiling, Brad Calder and Peter Feller and Alan Eustace
+Can program profiling support value prediction?, Freddy Gabbay and Avi Mendelson
+Highly accurate data value prediction using hybrid predictors, Kai Wang and Manoj Franklin
+ProfileMe: hardware support for instruction-level profiling on out-of-order processors, Jeffrey Dean and James E. Hicks and Carl A. Waldspurger and William E. Weihl and George Chrysos
+Procedure placement using temporal ordering information, Nikolas Gloy and Trevor Blackwell and Michael D. Smith and Brad Calder
+Predicting data cache misses in non-numeric applications through correlation profiling, Todd C. Mowry and Chi-Keung Luk
+Available paralellism in video applications, Heng Liao and Andrew Wolfe
+MediaBench: a tool for evaluating and synthesizing multimedia and communicatons systems, Chunho Lee and Miodrag Potkonjak and William H. Mangione-Smith
+Cache sensitive modulo scheduling, F. Jes&#250;s S&#225;nchez and Antonio Gonz&#225;lez
+Unroll-and-jam using uniformly generated sets, Steve Carr and Yiping Guan
+Resource-sensitive profile-directed data flow analysis for code optimization, Rajiv Gupta and David A. Berson and Jesse Z. Fang
+A bandwidth-efficient architecture for media processing, Scott Rixner and William J. Dally and Ujval J. Kapasi and Brucek Khailany and Abelardo L&#243;pez-Lagunas and Peter R. Mattson and John D. Owens
+Exploiting instruction level parallelism in geometry processing for three dimensional graphics applications, Chia-Lin Yang and Barton Sano and Alvin R. Lebeck
+Simple vector microprocessors for multimedia applications, Corinna G. Lee and Mark G. Stoodley
+Evaluating MMX technology using DSP and multimedia applications, Ravi Bhargava and Lizy K. John and Brian L. Evans and Ramesh Radhakrishnan
+Analyzing the working set characteristics of branch execution, Sangwook P. Kim and Gary S. Tyson
+Dataflow analysis of branch mispredictions and its application to early resolution of branch outcomes, Alexandre Farcy and Olivier Temam and Roger Espasa and Toni Juan
+The YAGS branch prediction scheme, A. N. Eden and T. Mudge
+Task selection for a multiscalar processor, T. N. Vijaykumar and Gurindar S. Sohi
+Split-path enhanced pipeline scheduling for loops with control flows, SangMin Shim and Soo-Mook Moon
+Effective cluster assignment for modulo scheduling, Erik Nystrom and Alexandre E. Eichenberger
+Better global scheduling using path profiles, Cliff Young and Michael D. Smith
+Predictive techniques for aggressive load speculation, Glenn Reinman and Brad Calder
+Compiler-directed early load-address generation, Ben-Chung Cheng and Daniel A. Connors and Wen-mei W. Hwu
+Load latency tolerance in dynamically scheduled processors, Srikanth T. Srinivasan and Alvin R. Lebeck
+Improving I/O performance with a conditional store buffer, Lambert Schaelicke and Al Davis
+Putting the fill unit to work: dynamic optimizations for trace cache microprocessors, Daniel Holmes Friendly and Sanjay Jeram Patel and Yale N. Patt
+Cooperative prefetching: compiler and hardware support for effective instruction prefetching in modern processors, Chi-Keung Luk and Todd C. Mowry
+Code compression based on operand factorization, Guido Araujo and Paulo Centoducatte and Mario Cartes and Ricardo Pannain
+Understanding the differences between value prediction and instruction reuse, Avinash Sodani and Gurindar S. Sohi
+A novel renaming scheme to exploit value temporal locality through physical register reuse and unification, Stephen Jourdan and Ronny Ronen and Michael Bekerman and Bishara Shomar and Adi Yoaz
+A dynamic multithreading processor, Haitham Akkary and Michael A. Driscoll
+Widening resources: a cost-effective technique for aggressive ILP architectures, David L&#243;pez and Josep Llosa and Mateo Valero and Eduard Ayguad&#233;
+The cascaded predictor: economical and adaptive branch target prediction, Karel Driesen and Urs H&#246;lzle
+Improving prediction for procedure returns with return-address-stack repair mechanisms, Kevin Skadron and Pritpal S. Ahuja and Margaret Martonosi and Douglas W. Clark
+Predicting indirect branches via data compression, John Kalamatianos and David R. Kaeli
+Improving locality using loop and data transformations in an integrated framework, M. Kandemir and A. Choudhary and J. Ramanujam and P. Banerjee
+Precise register allocation for irregular architectures, Timothy Kong and Kent D. Wilken
+Unified Assign and Schedule: A New Approach to Scheduling for Clustered Register File Microarchitectures, Emre &#214;zer and Sanjeev Banerjia and Thomas M. Conte
